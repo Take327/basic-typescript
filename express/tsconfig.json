@@ -11,7 +11,7 @@
     // "disableReferencedProjectLoad": true,             /* TypeScript による自動ロードされるプロジェクトの数を減らします。 */
 
     /* 言語と環境 */
-    "target": "es2016",                                  /* 出力される JavaScript の言語バージョンを指定し、互換ライブラリ宣言を含めます。 */
+    "target": "es2016" /* 出力される JavaScript の言語バージョンを指定し、互換ライブラリ宣言を含めます。 */,
     // "lib": [],                                        /* 対象の実行環境を記述するライブラリ宣言ファイルのセットを指定します。 */
     // "jsx": "preserve",                                /* 生成される JSX コードの形式を指定します。 */
     // "experimentalDecorators": true,                   /* 旧式の実験的なデコレーターのサポートを有効にします。 */
@@ -25,9 +25,9 @@
     // "moduleDetection": "auto",                        /* モジュール形式の JS ファイルを検出する方法を制御します。 */
 
     /* モジュール */
-    "module": "commonjs",                                /* 生成されるモジュールコードの形式を指定します。 */
+    "module": "commonjs" /* 生成されるモジュールコードの形式を指定します。 */,
     // "rootDir": "./",                                  /* ソースファイルのルートフォルダを指定します。 */
-    // "moduleResolution": "node10",                     /* 指定されたモジュールの場所を、TypeScript がどのように検索するかを指定します。 */
+    "moduleResolution": "node" /* 指定されたモジュールの場所を、TypeScript がどのように検索するかを指定します。 */,
     // "baseUrl": "./",                                  /* 相対パスでないモジュール名を解決するための基準ディレクトリを指定します。 */
     // "paths": {},                                      /* インポートを他の検索場所にリマップするエントリを指定します。 */
     // "rootDirs": [],                                   /* モジュール解決時に複数フォルダを一つのフォルダとして扱うことを許可します。 */
@@ -78,12 +78,12 @@
     // "verbatimModuleSyntax": true,                     /* type-only としてマークされていないインポートやエクスポートを変換または省略せず、'module' 設定に基づいて出力ファイル形式で書き込まれるようにします。 */
     // "isolatedDeclarations": true,                     /* エクスポートに十分なアノテーションを要求し、他のツールが簡単に宣言ファイルを生成できるようにします。 */
     // "allowSyntheticDefaultImports": true,             /* モジュールにデフォルトエクスポートがない場合でも 'import x from y' を許可します。 */
-    "esModuleInterop": true,                             /* CommonJS モジュールのインポートを容易にする追加の JavaScript を出力します。これにより、型の互換性のため 'allowSyntheticDefaultImports' が有効になります。 */
+    "esModuleInterop": true /* CommonJS モジュールのインポートを容易にする追加の JavaScript を出力します。これにより、型の互換性のため 'allowSyntheticDefaultImports' が有効になります。 */,
     // "preserveSymlinks": true,                         /* シンボリックリンクを実際のパスに解決しないようにします。これは Node.js の同名フラグに対応します。 */
-    "forceConsistentCasingInFileNames": true,            /* インポート時の大文字・小文字が正しいことを保証します。 */
+    "forceConsistentCasingInFileNames": true /* インポート時の大文字・小文字が正しいことを保証します。 */,
 
     /* 型チェック */
-    "strict": true,                                      /* すべての厳密な型チェックオプションを有効にします。 */
+    "strict": true /* すべての厳密な型チェックオプションを有効にします。 */,
     // "noImplicitAny": true,                            /* 暗黙の 'any' 型を持つ式や宣言に対してエラーを報告します。 */
     // "strictNullChecks": true,                         /* 型チェック時に 'null' や 'undefined' を考慮します。 */
     // "strictFunctionTypes": true,                      /* 関数を代入する際、パラメータや戻り値がサブタイプ互換であることをチェックします。 */
@@ -106,6 +106,6 @@
 
     /* 完全性 */
     // "skipDefaultLibCheck": true,                      /* TypeScript に含まれている .d.ts ファイルの型チェックをスキップします。 */
-    "skipLibCheck": true                                 /* すべての .d.ts ファイルの型チェックをスキップします。 */
+    "skipLibCheck": true /* すべての .d.ts ファイルの型チェックをスキップします。 */
   }
 }
