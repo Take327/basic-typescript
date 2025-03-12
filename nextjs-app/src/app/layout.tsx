@@ -1,8 +1,8 @@
 // app/layout.tsx
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Navbar from "@/components/Navbar"; // ✅ "@/components/Navbar" のように修正
-import "@/styles/globals.css"; // ✅ "@/styles/globals.css" で確実にインポート
+import Navbar from "./components/Navbar"; // ✅ 相対パスで修正
+import "./globals.css"; // ✅ globals.css のインポートを変更
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="ja">
       <body className={`${inter.className} bg-gray-100 text-gray-900`}>
         <Navbar />
-        <main className="container mx-auto p-6">{children}</main>
+        <main className="container p-6 mx-auto">{children}</main>
       </body>
     </html>
   );
