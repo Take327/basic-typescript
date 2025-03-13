@@ -1,8 +1,8 @@
 // app/layout.tsx
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Navbar from "./components/Navbar"; // ✅ 相対パスで修正
-import "./globals.css"; // ✅ globals.css のインポートを変更
+import Navbar from "./components/Navbar";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 

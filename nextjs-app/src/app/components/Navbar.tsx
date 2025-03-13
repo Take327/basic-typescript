@@ -1,10 +1,10 @@
-// src/components/Navbar.tsx
+// app/components/Navbar.tsx
 import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg-blue-600 p-4 text-white">
-      <div className="container mx-auto flex justify-between">
+    <nav className="p-4 text-white bg-blue-600">
+      <div className="container flex justify-between mx-auto">
         <h1 className="text-lg font-bold">My Next.js App</h1>
         <ul className="flex space-x-4">
           <li><Link href="/">ホーム</Link></li>
